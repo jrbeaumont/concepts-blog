@@ -13,4 +13,4 @@ github_username:  jrbeaumont
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge

@@ -7,31 +7,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   color-interpolation="auto"
-   color-rendering="auto"
-   fill="black"
-   fill-opacity="1"
-   font-family="'Dialog'"
    font-size="12"
    font-style="normal"
    font-weight="normal"
    height="243"
-   image-rendering="auto"
-   shape-rendering="auto"
-   stroke="black"
-   stroke-dasharray="none"
-   stroke-dashoffset="0"
-   stroke-linecap="square"
-   stroke-linejoin="miter"
    stroke-miterlimit="10"
-   stroke-opacity="1"
-   stroke-width="1"
-   text-rendering="auto"
-   width="1750"
+   width="875"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="buffer-inverter_schematic.svg">
+   sodipodi:docname="buffer-inverter_schematic.svg"
+   style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:auto;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto">
   <metadata
      id="metadata101">
     <rdf:RDF>
@@ -40,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,8 +44,8 @@
      id="namedview99"
      showgrid="false"
      inkscape:zoom="0.16914286"
-     inkscape:cx="875"
-     inkscape:cy="115.58784"
+     inkscape:cx="144.84799"
+     inkscape:cy="109.67568"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -68,7 +55,7 @@
      id="genericDefs" />
   <g
      id="g5"
-     transform="translate(665.1941,-1.6833255)">
+     transform="translate(227.6941,-1.6833255)">
     <g
        transform="matrix(50,0,0,50,209.5609,213.6448)"
        id="g7"

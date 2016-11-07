@@ -5,7 +5,7 @@ date:   2016-10-10 12:58:00 +0000
 categories: concepts
 ---
 
-As discussed in [Part 1]({{ site.url }}{{ site.baseurl }}/), OR-causality is a
+As discussed in [Part 1]({{ site.url }}{{ site.baseurl }}/concepts/2016/08/05/or-causality-1.html), OR-causality is a
 useful and important part of specifying circuits, and with our recently
 released tool (<https://github.com/tuura/concepts>), we needed to include
 OR-causality in the translation from *concepts* to *STGs*.

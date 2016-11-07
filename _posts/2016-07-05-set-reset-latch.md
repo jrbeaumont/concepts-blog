@@ -8,7 +8,7 @@ categories: concepts
 Set-Reset Latch
 ---------------
 
-After learning how a [C-element]({{ site.url }}{{ site.baseurl }}/) can be
+After learning how a [C-element]({{ site.url }}{{ site.baseurl }}/concepts/2016/01/13/c-element.html) can be
 produce with concepts, we can introduce other gates. In this case another
 fairly standard gate, a *latch*.
 
@@ -172,4 +172,4 @@ however the tool is written in Haskell, which does not support postfix
 operators. In the tool, `rise a` and `fall a` must be used instead.
 
 This blog series will continue with more standard gates, this time featuring
-an interesting type of causality, [***OR-causality***]({{ site.url }}{{ site.baseurl }}/)
+an interesting type of causality, [***OR-causality***]({{ site.url }}{{ site.baseurl }}/concepts/2016/08/05/or-causality-1.html)

@@ -181,7 +181,7 @@ tool, it is required that you use `rise` instead of `+` and `fall` instead of
 `-` in a prefix notation, for example, `a+` becomes `rise a`, and `a-` becomes
 `fall a`.
 
-[Part 2]({{ site.url }}{{ site.baseurl }}/) of this post will include an
+[***Part 2***]({{ site.url }}{{ site.baseurl }}/concepts/2016/10/10/or-causality-2.html) of this post will include an
 algorithm, as we have previously discussed how concepts are translated to
 STGs, but this algorithm will explain how OR-causality is translated, as this
 is quite specific.

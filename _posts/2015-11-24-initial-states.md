@@ -137,7 +137,7 @@ and the design process of various simple gates.  Now we can move onto
 discussing some more complicated designs, and how we can use pre-existing
 concepts, and define new ones.
 
-The next blog post will be Concepts IV: A C-element. This will be the first in
+The next blog post will be [***Concepts IV: A C-element***]({{ site.url }}{{ site.baseurl }}/concepts/2016/01/13/c-element.html). This will be the first in
 a set of posts describing some standard logic gates, and from this we will
 work up to some more complex examples, using some of the previously described
 gates.

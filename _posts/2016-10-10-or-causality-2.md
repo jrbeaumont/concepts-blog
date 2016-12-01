@@ -21,7 +21,7 @@ OR-causality, an algorithm
 --------------------------
 
 For an example to explain this, we will use **Example 2** from
-[Part 1]({{ site.url }}{{ site.baseurl }}/) of this post, **an OR-Gate with a
+[Part 1]({{ site.url }}{{ site.baseurl }}/concepts/2016/08/05/or-causality-1.html) of this post, **an OR-Gate with a
 single AND-causality**. This will display well OR- and AND-causality
 interaction.
 

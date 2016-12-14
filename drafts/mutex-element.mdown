@@ -1,0 +1,39 @@
+Often in asynchronous circuits, it is necessary to split resources between
+multiple possible users, in the form of subsystems of a circuit. For example,
+if 2 signals, 'a' and 'b' both request access to a device which can only
+handle one request at a time. When this happens, an *arbiter* is used, which
+helps deal with which request is handled at one time.
+
+A commonly used arbiter is a *mutual exclusion* element, or *mutex*. We have
+defined a mutex element to be used with concepts. However, there are some
+issues that can occur with a mutex.
+
+For example, if a request, 'a', reaches a mutex, but no request 'b', then 'a'
+request will be granted access to the resource. If the 'b' request then comes
+while the 'a' request has access, then when it relinquishes that access to the
+resource, then 'b' can have access. This would be the same if 'b' arrived
+first.
+
+However, what happens if both 'a' and 'b' requests reach the mutex at the
+exact same time. In this case, there is no order based decision for which
+request is granted access first, and in fact, due to the implementation of a
+mutex element, it would mean that due to the fact that a decision is not made,
+the mutex reaches a *metastable state*.
+
+This means that neither grants are given, these grant signals are not *high*,
+meaning that neither request has access to the resource. However, neither
+grant is *low* either. These both exist in a state which is somewhere in the
+middle. Due to this, it means that the mutex element is effectively stuck.
+
+Metastability in a mutex is resolved simply by waiting. Eventually, one of the
+signals will trend towards being high, and the other will therefore become
+low. This process is usually quite quick, however, it is not as
+instantaenous as if the requests arrived one after the other, and these delays
+can cause problems in an asynchronous circuit. Furthermore, there is no
+maximum time that the metastability resolution takes, and as such, the length
+of time it takes could be increcibly long.
+
+While metastability is being resolved, the signal that is trending towards
+high will gradually reach it, but the resource it is aiming to access will
+have a threshold voltage, over which a signal is registered as high, and below
+which, is either 0, or registered as metastable.

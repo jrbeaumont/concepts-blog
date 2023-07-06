@@ -18,6 +18,7 @@
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 source 'https://rubygems.org'
+gem 'rdiscount', '>=2.2.7.1'
 gem 'github-pages', group: :jekyll_plugins
 gem 'rouge'
 
